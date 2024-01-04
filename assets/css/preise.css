@@ -1,0 +1,21 @@
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    margin: 0 15px;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
